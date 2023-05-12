@@ -1,6 +1,7 @@
 resource "aws_ssm_parameter" "parameter" {
-  name = "test.test1"
+  count=length(var.parameters)
+  name = var.parameters[count.index].name
   type = "SecureString"
   key_id = "ee630d04-63d5-43bf-b139-108ebd656d7d"
-  value = "Hello World"
+  value = var.parameters[count.index].value
 }
