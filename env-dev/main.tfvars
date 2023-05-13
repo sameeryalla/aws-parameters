@@ -8,5 +8,10 @@ parameters = [
   { name="dev.catalogue.mongo", value="MONGO=true"},
   { name="dev.catalogue.mongo_url", value="mongodb://mongodb.sameerdevops.online:27017/catalogue"},
   { name="dev.user.redis_host", value="redis.sameerdevops.online"},
-  { name="dev.user.mongo_url", value="mongodb://mongodb.sameerdevops.online:27017/catalogue"}
+  { name="dev.user.mongo_url", value="mongodb://mongodb.sameerdevops.online:27017/catalogue"},
+  { name="dev.shipping.cart_endpoint", value="cart.sameerdevops.online:8080"},
+  { name="dev.shipping.db_host", value="mysql.sameerdevops.online"},
+  {name="dev.mysql.rootpwd", value="RoboShop@1"},
+  {name="dev.mysql.dbuser", value="root"}
 ]
+
