@@ -4,7 +4,7 @@ parameters = [
   { name="dev.frontend.user_url", value="user.sameerdevops.online"},
   { name="dev.frontend.shipping_url", value="shipping.sameerdevops.online"},
   { name="dev.frontend.payment_url", value="payment.sameerdevops.online"},
-  { name="dev.catalogue.mongodb_endpoint", value="http://mongodb.sameerdevops.online"},
+  { name="dev.catalogue.mongodb_endpoint", value="mongodb.sameerdevops.online"},
   { name="dev.catalogue.mongo", value="MONGO=true"},
   { name="dev.catalogue.mongo_url", value="mongodb://mongodb.sameerdevops.online:27017/catalogue"},
   { name="dev.user.redis_host", value="redis.sameerdevops.online"},
