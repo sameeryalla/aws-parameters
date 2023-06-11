@@ -1,3 +1,3 @@
-bucket = "terraform72"
+bucket = "roboshop72"
 key    = "parameter-store/dev/terraform.tfstate"
 region = "us-east-1"
