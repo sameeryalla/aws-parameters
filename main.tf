@@ -7,6 +7,10 @@ terraform {
   }
 }
 
+provider "aws" {
+  region = "us-east-1"
+}
+
 resource "aws_ssm_parameter" "parameters" {
   count  = length(var.parameters)
   name   = var.parameters[count.index].name
